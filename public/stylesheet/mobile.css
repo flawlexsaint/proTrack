@@ -1,0 +1,208 @@
+@media (max-width: 600px) {
+  .sidebar {
+    width: 50px;
+  }
+
+  .main {
+    background: #f4f6f7;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .container-fluid {
+    padding: 0;
+  }
+
+  /* Aside Section */
+  .logo {
+    position: absolute;
+    z-index: 11;
+    top: 10px;
+    left: 5px;
+    width: 100px;
+    height: 50px;
+  }
+
+  .mobile_hide,
+  .search_input,
+  .general,
+  .general_dashboard_text {
+    display: none !important;
+  }
+
+  .navbar-nav {
+    margin-top: 4rem !important;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .svgs {
+    fill: #505050;
+    margin-right: 0;
+  }
+
+  .main {
+    padding: 0 10px !important;
+  }
+
+  .users_profile {
+    margin-right: 0.2rem;
+  }
+
+  .search_section {
+    background: #ffffff;
+    width: 100vw;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 5px 20px 0px rgba(49, 96, 154, 0.09);
+  }
+
+  .search_icon_active {
+    display: none;
+  }
+
+  .select_dropdown_icon {
+    display: none;
+  }
+
+  .mobile_contractors {
+    margin-top: 6.5rem !important;
+  }
+
+  .contractors_stack {
+    display: block !important;
+  }
+
+  .form-select {
+    border-radius: 8px;
+  }
+
+  .search_pane {
+    height: 36px;
+  }
+
+  .search_row_display {
+    width: 70px;
+  }
+
+  /* Grid Section */
+
+  .grid_section,
+  .grid_section_2 {
+    width: 300%;
+  }
+
+  .contractor_id_2,
+  .company_name_2,
+  .email_2,
+  .phone_2 {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #505050;
+  }
+
+  .scroll {
+    overflow-x: scroll !important;
+    scrollbar-width: thin;
+    scrollbar-color: #31609a #ffffff;
+  }
+
+  .scroll::-webkit-scrollbar {
+    width: 5px; /* width of the entire scrollbar */
+  }
+
+  .scroll::-webkit-scrollbar-track {
+    background: #ffffff; /* color of the tracking area */
+  }
+
+  .scroll::-webkit-scrollbar-thumb {
+    background-color: #31609a; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid #f4f6f7;
+  }
+
+  .mobile_pagination {
+    justify-content: start !important;
+    margin-bottom: 2rem;
+    margin-top: 2rem !important;
+  }
+
+  .document_grid {
+    display: grid;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: "1fr 1fr";
+  }
+
+  /* CONTRACT DETAIL PAGE */
+
+  .edit_contract_btn {
+    width: 80px;
+  }
+
+  .mobile_margin_top {
+    margin-top: 2rem;
+  }
+
+  .grid_section_3 {
+    width: 210%;
+  }
+
+  /* PROJECT DETAIL PAGE */
+
+  .grid_section_5,
+  .grid_section_4 {
+    width: 360%;
+  }
+
+  .tab_bg {
+    width: 150%;
+    overflow-y: hidden;
+  }
+
+  .milestone_grid,
+  .milestone_grid_2 {
+    width: 230%;
+  }
+
+  /* Attachment Tab */
+  .attachment_tab {
+    width: 130%;
+  }
+
+  .issues_grid {
+    background: #31609a;
+    border-radius: 8px;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.6fr 0.5fr 0.4fr 0.6fr 0.4fr;
+  }
+
+  .issues_grid_2 {
+    background: #ffffff;
+    border-radius: 8px;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1.2fr 0.6fr 0.5fr 0.4fr 0.6fr 0.4fr;
+  }
+
+  .issues_grid,
+  .issues_grid_2 {
+    width: 240%;
+  }
+
+  /* ADD PROJECT PAGE */
+  .add_project {
+    margin: 0;
+  }
+}
